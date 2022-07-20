@@ -1,10 +1,10 @@
 import { Heading, Icon, useTheme, VStack } from "native-base";
 import { useState } from "react";
 import Logo from "../assets/logo_primary.svg";
-import { Input } from "../Components/Input";
+import { Input } from "../components/Input";
 
 import { Envelope, Key } from "phosphor-react-native";
-import { Button } from "../Components/Button";
+import { Button } from "../components/Button";
 
 export function SignIn() {
   const [email, setEmail] = useState<string>("");
